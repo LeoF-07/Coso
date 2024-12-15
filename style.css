@@ -1,0 +1,78 @@
+body{
+    margin: 0px;
+}
+
+#intestazione{
+    position: relative;
+    border-style: solid;
+    border-color: black;
+    border-width: 3px;
+    max-width: 10000px;
+    max-height: 10000px;
+    width: 99.5%; /* Poi metto a 0 border-width e a 100% width */
+    height: 100px;
+}
+
+#corpo{
+    position: relative;
+    border-style: solid;
+    border-color: black;
+    display: flex;
+    max-width: 10000px;
+    max-height: 10000px;
+    width: 99.5%;
+    height: 800px;
+    margin-top: 1px;
+}
+
+#lato-destro, #lato-sinistro{
+    position: relative;
+    border-style: solid;
+    border-color: black;
+    height: 100%;
+    margin: 1px;
+}
+
+#lato-destro{
+    width: 20%;
+    float: left;
+}
+
+#lato-sinistro{
+    display: block;
+    width: 80%;
+    float: right;
+}
+
+#immagine-destra{
+    position: relative;
+    border-style: solid;
+    border-color: black;
+    width: 100px;
+    height: 100px;
+    float: right;
+    margin-right: 200px;
+    margin-top: 200px;
+}
+
+#immagine-sinistra{
+    position: absolute;
+    border-style: solid;
+    border-color: black;
+    width: 100px;
+    height: 100px;
+    float: left;
+    bottom: 0;
+    margin-left: 200px;
+    margin-bottom: 200px;
+}
+
+#immagine-centrale{
+    position: inherit;
+    border-style: solid;
+    border-color: black;
+    margin: 0 auto;
+    margin-top: 250px;
+    width: 300px;
+    height: 300px;
+}
